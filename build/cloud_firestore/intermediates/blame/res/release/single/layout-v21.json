@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

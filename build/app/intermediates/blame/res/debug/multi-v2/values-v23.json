@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/d243d98049c942d132d46c1e4df2715d/work-runtime-2.7.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

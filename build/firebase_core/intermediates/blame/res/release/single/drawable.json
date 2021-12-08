@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/firebase_core/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/firebase_core/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/firebase_core/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/firebase_core/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    }
+]

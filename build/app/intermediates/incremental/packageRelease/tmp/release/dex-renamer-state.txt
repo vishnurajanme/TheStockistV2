@@ -1,0 +1,4 @@
+#Thu Jun 24 19:52:30 IST 2021
+base.0=/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

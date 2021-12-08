@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "415059302951",
+    "project_id": "the-stockist-flutter",
+    "storage_bucket": "the-stockist-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415059302951:android:5403f971cc713394f24c02",
+        "android_client_info": {
+          "package_name": "com.example.google_sheets_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415059302951-ahl7oearqashehjl75ojqeiesirnlfgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.google_sheets_app",
+            "certificate_hash": "07b60b26cd514e7fe3099e8d058f4116b9cdddad"
+          }
+        },
+        {
+          "client_id": "415059302951-3dvf6rknrqd1lqltblphm2jvbebnsko9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUD4Fd_bg7Yf7OR-XRnyyJcE5ZJdWL9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415059302951-3dvf6rknrqd1lqltblphm2jvbebnsko9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415059302951:android:cf52af9e9803b6eaf24c02",
+        "android_client_info": {
+          "package_name": "com.vishnurajan.stockistbusinessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415059302951-fvmbhvs8n4su1fie441uutiqsofq19ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vishnurajan.stockistbusinessapp",
+            "certificate_hash": "07b60b26cd514e7fe3099e8d058f4116b9cdddad"
+          }
+        },
+        {
+          "client_id": "415059302951-u9m5kfis51ab798cj5lej3250norufcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vishnurajan.stockistbusinessapp",
+            "certificate_hash": "3ed606dbbec840b786cca1f42caf5b604481a879"
+          }
+        },
+        {
+          "client_id": "415059302951-3dvf6rknrqd1lqltblphm2jvbebnsko9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUD4Fd_bg7Yf7OR-XRnyyJcE5ZJdWL9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415059302951-3dvf6rknrqd1lqltblphm2jvbebnsko9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
