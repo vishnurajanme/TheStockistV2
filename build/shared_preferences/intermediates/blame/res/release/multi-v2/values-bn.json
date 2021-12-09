@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/shared_preferences/intermediates/res/merged/release/values-bn/values-bn.xml",
+            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/shared_preferences/intermediates/res/merged/release/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/values-bn/values-bn.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/shared_preferences/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn/values-bn.xml",
+            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/shared_preferences/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/values-bn/values-bn.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

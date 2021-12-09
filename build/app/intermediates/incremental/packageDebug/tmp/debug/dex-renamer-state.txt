@@ -1,9 +1,9 @@
-#Wed Dec 08 10:58:43 IST 2021
-base.2=/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+#Thu Dec 09 22:19:30 IST 2021
+base.2=/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
 path.2=classes3.dex
-base.1=/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+base.1=/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
 path.1=classes2.dex
-base.0=/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+base.0=/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

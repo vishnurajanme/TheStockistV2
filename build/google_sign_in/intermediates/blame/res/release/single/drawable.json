@@ -1,74 +1,74 @@
 [
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_bg_low.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_bg.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_bg.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_icon_background.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/drawable/notification_tile_bg.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/04f3f01f2979ce67c13efef89d02dabe/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_sign_in/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0e7a8c6eb11fddac3176ab868d6da5da/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
     }
 ]

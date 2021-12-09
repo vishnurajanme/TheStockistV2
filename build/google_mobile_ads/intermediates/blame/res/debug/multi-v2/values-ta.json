@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_mobile_ads/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/72fa7a90cf0507ffc95583f280c353cd/jetified-play-services-ads-20.4.0/res/values-ta/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_mobile_ads/intermediates/res/merged/debug/values-ta/values-ta.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/72fa7a90cf0507ffc95583f280c353cd/jetified-play-services-ads-20.4.0/res/values-ta/values.xml",

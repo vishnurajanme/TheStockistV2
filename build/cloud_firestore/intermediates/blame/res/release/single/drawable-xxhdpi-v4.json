@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     }
 ]

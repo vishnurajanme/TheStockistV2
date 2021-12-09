@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_mobile_ads/intermediates/res/merged/debug/values-mr/values-mr.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/values-mr/values-mr.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/google_mobile_ads/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/values-mr/values-mr.xml",

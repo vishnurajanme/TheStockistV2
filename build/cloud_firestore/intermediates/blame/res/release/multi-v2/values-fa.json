@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/values-fa/values-fa.xml",
+            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-fa/values-fa.xml",
             "map": [
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0963987c512ea40ba8d11f194aab8243/jetified-play-services-basement-17.0.0/res/values-fa/values.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/values-fa/values-fa.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "213",
-                        "endOffsets": "460"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1249",
-                        "endColumns": "213",
-                        "endOffsets": "1458"
+                        "startOffsets": "2835",
+                        "endColumns": "100",
+                        "endOffsets": "2931"
                     }
                 },
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/values-fa/values.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/values-fa/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,46 +38,46 @@
                     }
                 },
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/values-fa/values-fa.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/10764e07b429b44f101c8d7c5a7fcfc1/jetified-play-services-basement-17.0.0/res/values-fa/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "213",
+                        "endOffsets": "460"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2835",
-                        "endColumns": "100",
-                        "endOffsets": "2931"
+                        "startOffsets": "1249",
+                        "endColumns": "213",
+                        "endOffsets": "1458"
                     }
                 }
             ]
         },
         {
-            "outputFile": "/Users/vishnurajan/StudioProjects/firebasefinal_setstate/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-fa/values-fa.xml",
+            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/cloud_firestore/intermediates/res/merged/release/values-fa/values-fa.xml",
             "map": [
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/0963987c512ea40ba8d11f194aab8243/jetified-play-services-basement-17.0.0/res/values-fa/values.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/2ee7c58d8a73cc6baea4c205234d4a2a/core-1.1.0/res/values-fa/values-fa.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "213",
-                        "endOffsets": "460"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1249",
-                        "endColumns": "213",
-                        "endOffsets": "1458"
+                        "startOffsets": "2835",
+                        "endColumns": "100",
+                        "endOffsets": "2931"
                     }
                 },
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/5e0a8a8e5956714d136a2123582aa5d2/jetified-play-services-base-17.0.0/res/values-fa/values.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7eb26119ff4ceb1645d0ef10d92272cd/jetified-play-services-base-17.0.0/res/values-fa/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,20 +94,20 @@
                     }
                 },
                 {
-                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/78ef6cf0adaf73b3f336b22131abaf4e/core-1.1.0/res/values-fa/values-fa.xml",
+                    "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/10764e07b429b44f101c8d7c5a7fcfc1/jetified-play-services-basement-17.0.0/res/values-fa/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "213",
+                        "endOffsets": "460"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2835",
-                        "endColumns": "100",
-                        "endOffsets": "2931"
+                        "startOffsets": "1249",
+                        "endColumns": "213",
+                        "endOffsets": "1458"
                     }
                 }
             ]
