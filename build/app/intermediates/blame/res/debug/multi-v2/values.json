@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/7f9628f2700bbed1324f9b1117bce7d5/jetified-play-services-base-17.1.0/res/values/values.xml",
@@ -97,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "/Users/vishnurajan/Documents/Developer/The Stockist/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -116,6 +116,23 @@
                     }
                 },
                 {
+                    "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,718",
+                        "endColumns": "143,81,103,108,119,103,80",
+                        "endOffsets": "194,276,380,489,609,713,794"
+                    },
+                    "to": {
+                        "startLines": "122,123,124,125,126,127,142",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8913,9057,9139,9243,9352,9472,10989",
+                        "endColumns": "143,81,103,108,119,103,80",
+                        "endOffsets": "9052,9134,9238,9347,9467,9571,11065"
+                    }
+                },
+                {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/6f67b593e363a3859f7a28b74bfcaa85/browser-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
@@ -130,23 +147,6 @@
                         "startOffsets": "646,704,770,833,1698,1769",
                         "endColumns": "57,65,62,61,70,71",
                         "endOffsets": "699,765,828,890,1764,1836"
-                    }
-                },
-                {
-                    "source": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,718",
-                        "endColumns": "143,81,103,108,119,103,80",
-                        "endOffsets": "194,276,380,489,609,713,794"
-                    },
-                    "to": {
-                        "startLines": "122,123,124,125,126,127,142",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8913,9057,9139,9243,9352,9472,10989",
-                        "endColumns": "143,81,103,108,119,103,80",
-                        "endOffsets": "9052,9134,9238,9347,9467,9571,11065"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/20ef96344c290546c7e5d42c47d5510d/jetified-play-services-basement-17.6.0/res/values-ko/values.xml",

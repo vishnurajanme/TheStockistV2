@@ -1,4 +1,0 @@
-#Thu Dec 09 22:04:59 IST 2021
-base.0=/Users/vishnurajan/Desktop/Android/firebasefinal_setstate/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

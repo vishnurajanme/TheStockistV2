@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/vishnurajan/Documents/Developer/The Stockist/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/vishnurajan/Documents/Developer/The Stockist/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
+        "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/android/app/src/main/res/drawable/launch_background.xml"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/vishnurajan/Documents/Developer/The Stockist/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat",
-        "source": "/Users/vishnurajan/Documents/Developer/The Stockist/android/app/src/main/res/drawable/launch_background.xml"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/vishnurajan/Documents/Developer/The Stockist/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/vishnurajan/Documents/Developer/The Stockist/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

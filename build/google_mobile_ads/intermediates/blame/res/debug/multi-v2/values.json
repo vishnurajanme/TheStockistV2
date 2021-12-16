@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/values/values.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/values/values.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/23823553a36bc75af23d6b10f275595a/coordinatorlayout-1.0.0/res/values/values.xml",
@@ -150,7 +150,7 @@
             ]
         },
         {
-            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/23823553a36bc75af23d6b10f275595a/coordinatorlayout-1.0.0/res/values/values.xml",

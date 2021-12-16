@@ -1,34 +1,34 @@
 [
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_template_icon_group.xml"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/6f67b593e363a3859f7a28b74bfcaa85/browser-1.0.0/res/layout/browser_actions_context_menu_row.xml"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/custom_dialog.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/custom_dialog.xml"
-    },
-    {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_action.xml"
-    },
-    {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/browser_actions_context_menu_page.xml",
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/browser_actions_context_menu_page.xml",
         "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/6f67b593e363a3859f7a28b74bfcaa85/browser-1.0.0/res/layout/browser_actions_context_menu_page.xml"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist/build/google_mobile_ads/intermediates/res/merged/debug/layout/browser_actions_context_menu_row.xml",
-        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/6f67b593e363a3859f7a28b74bfcaa85/browser-1.0.0/res/layout/browser_actions_context_menu_row.xml"
+        "merged": "/Users/vishnurajan/Documents/Developer/The Stockist 3 screens and Splash/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/vishnurajan/.gradle/caches/transforms-2/files-2.1/419b1b457aeb70a6c89eaca20de35da0/core-1.6.0/res/layout/notification_action.xml"
     }
 ]

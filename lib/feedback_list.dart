@@ -1,12 +1,51 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:google_sheets_app/screen3.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'main.dart';
 import 'model/form.dart';
+import 'package:flutter/widgets.dart';
+
+class SizeConfig {
+  static MediaQueryData _mediaQueryData;
+  static double screenWidth;
+  static double screenHeight;
+  static double blockSizeHorizontal;
+  static double blockSizeVertical;
+
+  static double _safeAreaHorizontal;
+  static double _safeAreaVertical;
+  static double safeBlockHorizontal;
+  static double safeBlockVertical;
+
+  static double appheight;
+
+
+  void init(BuildContext context) {
+    _mediaQueryData = MediaQuery.of(context);
+    screenWidth = _mediaQueryData.size.width;
+    screenHeight = _mediaQueryData.size.height;
+    blockSizeHorizontal = screenWidth / 100;
+    blockSizeVertical = screenHeight / 100;
+
+    appheight = AppBar().preferredSize.height;
+
+    _safeAreaHorizontal = _mediaQueryData.padding.left +
+        _mediaQueryData.padding.right;
+    _safeAreaVertical = _mediaQueryData.padding.top +
+        _mediaQueryData.padding.bottom;
+    safeBlockHorizontal = (screenWidth -
+        _safeAreaHorizontal) / 100;
+    safeBlockVertical = (screenHeight -
+        _safeAreaVertical) / 100;
+  }
+}
 
 class FeedbackListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    MobileAds.instance.initialize();
     return MaterialApp(
         title: 'Feedback Responses',
         theme: ThemeData(
@@ -38,9 +77,28 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
 
   @override
   Widget build(BuildContext context) {
-    double _height = MediaQuery.of(context).size.height;
-    double _width = MediaQuery.of(context).size.width;
+
+    final BannerAd myBanner = BannerAd(
+      adUnitId: 'ca-app-pub-8764497517675712/2819979771',
+      size: AdSize.banner,
+      request: AdRequest(),
+      listener: BannerAdListener(),
+    );
+
+    myBanner.load();
+    SizeConfig().init(context);
+
+    final AdWidget adWidget = AdWidget(ad: myBanner);
+
+    final Container adContainer = Container(
+      alignment: Alignment.center,
+      child: adWidget,
+      width: myBanner.size.width.toDouble(),
+      height: myBanner.size.height.toDouble(),
+    );
+
     return Scaffold(
+        resizeToAvoidBottomInset: false,
         appBar: AppBar(
           title: Text(widget.title),
           actions: <Widget>[
@@ -69,34 +127,30 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            // Add your onPressed code here!
 
+            // Add your onPressed code here!
             Alert(
               context: context,
               type: AlertType.success,
               title: "",
-              desc: "Press & hold an entry to delete it. You can find the sort option in top right corner. In case of any bugs, please write to vishnurajanme@gmail.com",
+              desc: "Tap an entry to modify or delete the same. If you notice any bugs, please inform me at vishnurajanme@gmail.com Thank you",
               buttons: [
                 DialogButton(
                   child: Text(
                     "OK",
-                    style: TextStyle(color: Colors.white, fontSize: 20),
+                    style: TextStyle(color: Colors.white, fontSize: SizeConfig.blockSizeVertical*2),
                   ),
                   onPressed: () => Navigator.of(context, rootNavigator: true).pop(),
-                  width: 120,
+                  width: SizeConfig.blockSizeVertical*20,
                 )
               ],
             ).show();
-
-
           },
           child: const Icon(Icons.help_outline,
-          size: 40,),
+          size: 40),
           backgroundColor: Color(0xff0e1134),
         ),
         body: Container(
-          height: _height,
-          width: _width,
           decoration: BoxDecoration(
             gradient: LinearGradient(
                 colors: [Color(0xffbabbe0), Colors.white],
@@ -104,10 +158,15 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
                 end: Alignment.bottomCenter),
           ),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Expanded(
+              Container(
+                alignment: Alignment.center,
+                child: adContainer,
+              ),
+              Container(
+                height: SizeConfig.screenHeight - SizeConfig._safeAreaVertical - myBanner.size.height.toDouble() - SizeConfig.appheight,
                 child: StreamBuilder(
                   stream: db
                       .collection("users")
@@ -125,47 +184,16 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
                         return Padding(
                           padding: const EdgeInsets.only(top: 6),
                           child: ListTile(
-                            onLongPress: () async {
-                              Alert(
-                                context: context,
-                                title: "Delete Entry?",
-                                desc:
-                                    "Please confirm whether you need to delete the selected entry",
-                                buttons: [
-                                  DialogButton(
-                                    child: Text(
-                                      "Yes",
-                                      style: TextStyle(
-                                          color: Colors.white, fontSize: 20),
-                                    ),
-                                    onPressed: () async {
-                                      await db.runTransaction(
-                                          (Transaction myTransaction) async {
-                                        await myTransaction.delete(snapshot
-                                            .data.docs[index].reference);
-                                      });
+                            onTap: () async {
 
-                                      Navigator.of(context, rootNavigator: true)
-                                          .pop();
-                                    },
-                                    color: Color.fromRGBO(0, 179, 134, 1.0),
-                                  ),
-                                  DialogButton(
-                                    child: Text(
-                                      "No",
-                                      style: TextStyle(
-                                          color: Colors.white, fontSize: 20),
-                                    ),
-                                    onPressed: () => Navigator.of(context,
-                                            rootNavigator: true)
-                                        .pop(),
-                                    gradient: LinearGradient(colors: [
-                                      Color.fromRGBO(116, 116, 191, 1.0),
-                                      Color.fromRGBO(52, 138, 199, 1.0)
-                                    ]),
-                                  )
-                                ],
-                              ).show();
+                              Navigator.of(context).push(MaterialPageRoute(builder:(context)=>Screen3(snapshot.data.docs[index])));
+
+                              print("Name: ${snapshot.data.docs[index]['name']}\n"
+                                  "Purchase Price: ${snapshot.data.docs[index]['purchase']}\n"
+                                  "Sale Price: ${snapshot.data.docs[index]['sale']}\n"
+                                  "Remarks: ${snapshot.data.docs[index]['remark']}\n"
+                                  "Date: ${snapshot.data.docs[index]['date']}\n"
+                                  "Profit: ${snapshot.data.docs[index]['profit']}\n  ");
                             },
                             title: Container(
                               decoration: BoxDecoration(
@@ -218,12 +246,12 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
                                           ),
                                           Text(
                                             "${snapshot.data.docs[index]["remark"]}",
-                                            maxLines: 2,
+                                            maxLines: 1,
                                             textAlign: TextAlign.left,
                                             style: TextStyle(
                                                 color:
                                                     Colors.white.withOpacity(0.7),
-                                                fontSize: 11),
+                                                fontSize: 10),
                                           ),
                                         ],
                                       ),
