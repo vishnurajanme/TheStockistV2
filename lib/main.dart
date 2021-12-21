@@ -372,7 +372,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // Call the user's CollectionReference to add a new user
     if (_formKey.currentState.validate()) {
       return products.add({
-        'name': nameController.text, // John Doe
+        'name': nameController.text.toLowerCase(), // John Doe
         'purchase': emailController.text, // Stokes and Sons
         'sale': mobileNoController.text, // 42
         'remark': feedbackController.text,
@@ -381,7 +381,6 @@ class _MyHomePageState extends State<MyHomePage> {
             int.parse(emailController.text)),
       }).then((value) {
         _formKey.currentState.reset();
-
         nameController.text = "";
         emailController.text = "";
         mobileNoController.text = "";
@@ -407,7 +406,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 
     final BannerAd myBanner = BannerAd(
-      adUnitId: 'ca-app-pub-8764497517675712/8660228304',
+      adUnitId: 'ca-app-pub-3940256099942544/6300978111',
       size: AdSize.banner,
       request: AdRequest(),
       listener: BannerAdListener(),
@@ -729,6 +728,7 @@ Future<String> _showmessage() async {
       .get()
       .then((querySnapshot) {
     querySnapshot.docs.forEach((result) {
+      print(result.data()['date']);
       netprofit = netprofit + result.data()['profit'];
       if ((result.data()['date'].toString().split('-').first) ==
           (DateTime.now().toIso8601String().split('-').first)) {

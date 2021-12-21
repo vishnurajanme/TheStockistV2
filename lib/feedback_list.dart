@@ -6,6 +6,10 @@ import 'package:rflutter_alert/rflutter_alert.dart';
 import 'main.dart';
 import 'model/form.dart';
 import 'package:flutter/widgets.dart';
+String sortitem = 'date';
+String fromdate = '1900-01-01';
+String todate = '2050-01-01';
+String searchKey = "";
 
 class SizeConfig {
   static MediaQueryData _mediaQueryData;
@@ -20,7 +24,6 @@ class SizeConfig {
   static double safeBlockVertical;
 
   static double appheight;
-
 
   void init(BuildContext context) {
     _mediaQueryData = MediaQuery.of(context);
@@ -65,6 +68,19 @@ class FeedbackListPage extends StatefulWidget {
 }
 
 class _FeedbackListPageState extends State<FeedbackListPage> {
+
+  final myController = TextEditingController();
+
+  @override
+  void dispose() {
+    // Clean up the controller when the widget is disposed.
+    myController.dispose();
+    super.dispose();
+  }
+
+  Widget appBarTitle = new Text("Purchase History");
+  Icon actionIcon = new Icon(Icons.search);
+
   bool _descending = true;
   List<FeedbackForm> feedbackItems = List<FeedbackForm>();
 
@@ -79,7 +95,7 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
   Widget build(BuildContext context) {
 
     final BannerAd myBanner = BannerAd(
-      adUnitId: 'ca-app-pub-8764497517675712/2819979771',
+      adUnitId: 'ca-app-pub-3940256099942544/6300978111',
       size: AdSize.banner,
       request: AdRequest(),
       listener: BannerAdListener(),
@@ -96,32 +112,139 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
       width: myBanner.size.width.toDouble(),
       height: myBanner.size.height.toDouble(),
     );
+    void handleClick(String value) {
+      if(_descending == true) {
+        setState(() {
+          _descending = false;
+        });
+      }
+      else {
+        setState(() {
+          _descending = true;
+        });
+      }
+      print(_descending);
+      switch (value) {
+        case 'Date':
+          sortitem = 'date';
+          break;
+        case 'Profit':
+          sortitem = 'profit';
+          break;
+        case 'Purchase Price':
+          sortitem = 'purchase';
+          break;
+        case 'Sale Price':
+          sortitem = 'sale';
+          break;
+      }
+    }
+
+    Future<void> handleFilter(String value) async {
+      sortitem = 'date';
+      switch (value) {
+        case 'From':
+
+            DateTime date = DateTime(1900);
+            FocusScope.of(context)
+                .requestFocus(new FocusNode());
+
+            date = await showDatePicker(
+                context: context,
+                initialDate: DateTime.now(),
+                firstDate: DateTime(1900),
+                lastDate: DateTime(2100));
+
+            fromdate = date.toIso8601String().split('T').first;
+
+          break;
+        case 'To':
+
+          DateTime date = DateTime(1900);
+          FocusScope.of(context)
+              .requestFocus(new FocusNode());
+
+          date = await showDatePicker(
+              context: context,
+              initialDate: DateTime.now(),
+              firstDate: DateTime(1900),
+              lastDate: DateTime(2100));
+
+          todate = date.toIso8601String().split('T').first;
+
+          break;
+      }
+    }
+
+    myController.addListener(() {
+      setState(() {
+        searchKey = myController.text;
+      });
+    });
 
     return Scaffold(
         resizeToAvoidBottomInset: false,
         appBar: AppBar(
-          title: Text(widget.title),
+          title:appBarTitle,
           actions: <Widget>[
             Padding(
                 padding: EdgeInsets.only(right: 20.0),
-                child: GestureDetector(
-                  onTap: () {
-                    if(_descending == true) {
+                child: Row(
+                  children: [
+                    IconButton(icon: actionIcon,onPressed:(){
                       setState(() {
-                        _descending = false;
+                        if ( this.actionIcon.icon == Icons.search){
+                          sortitem = "name";
+                          this.actionIcon = new Icon(Icons.close);
+                          this.appBarTitle = new TextField(
+                            textCapitalization: TextCapitalization.none,
+                            controller: myController,
+                            style: new TextStyle(
+                              color: Colors.white,
+                            ),
+                            decoration: new InputDecoration(
+                                prefixIcon: new Icon(Icons.search, color: Colors.white),
+                                hintText: "Search...",
+                                hintStyle: new TextStyle(color: Colors.white)
+                            ),
+                          );}
+                        else {
+                          sortitem = 'date';
+                          this.actionIcon = new Icon(Icons.search);
+                          this.appBarTitle = new Text("Purchase History");
+                        }
+
                       });
-                    }
-                    else {
-                      setState(() {
-                        _descending = true;
-                      });
-                    }
-                    print(_descending);
-                  },
-                  child: Icon(
-                      Icons.sort
-                  ),
-                )
+                    } ,),
+                    PopupMenuButton<String>(
+                      onSelected: handleFilter,
+                      itemBuilder: (BuildContext context) {
+                        return {'From', 'To'}.map((String choice) {
+                          return PopupMenuItem<String>(
+                            value: choice,
+                            child: ListTile(
+                              leading: Icon(Icons.date_range),
+                              title: Text(choice),
+                            ),
+                          );
+                        }).toList();
+                      },
+                      icon: Icon(Icons.filter_list),
+                    ),
+                    PopupMenuButton<String>(
+                      onSelected: handleClick,
+                      itemBuilder: (BuildContext context) {
+                        return {'Date', 'Profit'}.map((String choice) {
+                          return PopupMenuItem<String>(
+                            value: choice,
+                            child: Text(choice),
+                          );
+                        }).toList();
+                      },
+                      icon: Icon(Icons.sort),
+                    ),
+                  ],
+                ),
             ),
           ],
         ),
@@ -133,7 +256,7 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
               context: context,
               type: AlertType.success,
               title: "",
-              desc: "Tap an entry to modify or delete the same. If you notice any bugs, please inform me at vishnurajanme@gmail.com Thank you",
+              desc: "Tap an entry to modify or delete the same. Search, sort and datewise filtering can be availed by selecting appropriate options in this screen's appbar (Top portion). If you notice any bugs, please inform me at vishnurajanme@gmail.com Thank you",
               buttons: [
                 DialogButton(
                   child: Text(
@@ -168,13 +291,7 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
               Container(
                 height: SizeConfig.screenHeight - SizeConfig._safeAreaVertical - myBanner.size.height.toDouble() - SizeConfig.appheight,
                 child: StreamBuilder(
-                  stream: db
-                      .collection("users")
-                      .doc(uid)
-                      .collection("products")
-                      //.where('name', isGreaterThanOrEqualTo: 'Oneplus')
-                      .orderBy('date', descending: _descending)
-                      .snapshots(),
+                  stream: _mystream(),
                   builder: (context, snapshot) {
                     if (!snapshot.hasData) return const Text("Loading...");
                     return ListView.builder(
@@ -302,5 +419,33 @@ class _FeedbackListPageState extends State<FeedbackListPage> {
             ],
           ),
         ));
+
+  }
+  Stream<dynamic> _mystream() {
+    if (sortitem == 'date') {
+      return db
+          .collection("users")
+          .doc(uid)
+          .collection("products")
+          .orderBy(sortitem, descending: _descending)
+          .where(sortitem, isGreaterThanOrEqualTo: fromdate)
+          .where(sortitem, isLessThanOrEqualTo: todate)
+          .snapshots();
+    }
+    else if (sortitem == 'name') {
+      return db
+          .collection("users")
+          .doc(uid)
+          .collection("products")
+          .where(sortitem, isGreaterThanOrEqualTo: searchKey)
+          .where(sortitem, isLessThan: searchKey +'z')
+          .snapshots();
+    }
+    else return db
+        .collection("users")
+        .doc(uid)
+        .collection("products")
+        .orderBy(sortitem, descending: _descending)
+        .snapshots();
   }
 }

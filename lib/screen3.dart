@@ -120,7 +120,7 @@ class _Screen2State extends State<Screen3> {
   Widget build(BuildContext context) {
 
     final BannerAd myBanner = BannerAd(
-      adUnitId: 'ca-app-pub-8764497517675712/8359618049',
+      adUnitId: 'ca-app-pub-3940256099942544/6300978111',
       size: AdSize.banner,
       request: AdRequest(),
       listener: BannerAdListener(),
